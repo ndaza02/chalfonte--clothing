@@ -460,6 +460,13 @@ window.updateTypeFilter = (type) => {
     renderListingView();
 };
 
+window.toggleFilters = () => {
+    const sidebar = document.getElementById('filter-sidebar');
+    if (sidebar) {
+        sidebar.classList.toggle('hidden');
+    }
+};
+
 window.toggleMobileMenu = () => {
     const menu = document.getElementById('mobile-menu');
     if (menu) {
@@ -693,7 +700,7 @@ const createProductCard = (product, index = 0, isHome = false) => {
 const renderListingView = () => {
     const grid = document.getElementById('product-grid');
     const title = document.querySelector('#listing-view h1');
-    const sidebarContainer = document.querySelector('#listing-view .sticky');
+    const sidebarContainer = document.getElementById('filter-sidebar');
     const heroContainer = document.getElementById('shop-hero-container');
 
     if (grid) {
