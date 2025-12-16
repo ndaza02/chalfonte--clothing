@@ -277,7 +277,7 @@ const ARTICLES = {
         date: 'December 12, 2024',
         image: 'https://images.unsplash.com/photo-1581338834647-b0fb40704e21?auto=format&fit=crop&q=80&w=1200',
         content: `
-            <p class="text-xl font-medium leading-relaxed mb-8">True luxury is no longer defined by rarity, but by responsibility. At DH Global, we are pioneering the use of materials that respect our planet without compromising on the touch, drape, or durability you expect.</p>
+            <p class="text-xl font-medium leading-relaxed mb-8">True luxury is no longer defined by rarity, but by responsibility. At Chalfonte Clothing, we are pioneering the use of materials that respect our planet without compromising on the touch, drape, or durability you expect.</p>
             
             <h3 class="text-2xl font-bold mb-4 mt-8">Lab-Grown Leather</h3>
             <p class="mb-6 text-gray-700 leading-relaxed">Traditional leather production is resource-intensive. We are shifting towards mycelium-based alternatives—grown from mushroom roots in a carbon-neutral lab environment. The result is a material that feels indistinguishable from calfskin but carries zero environmental guilt.</p>
@@ -1068,16 +1068,16 @@ const renderCartView = () => {
             </div>
 
             <!-- Cart Summary (Col 3) -->
-            <div class="lg:col-span-1 bg-gray-50 p-8 rounded-2xl sticky top-28 h-fit shadow-inner border border-gray-100">
+            <div class="lg:col-span-1 bg-gray-50 p-6 rounded-2xl sticky top-28 h-fit shadow-inner border border-gray-100">
                 <h2 class="text-xl font-bold mb-6">Cart summary</h2>
 
-                <div class="flex items-center gap-3 mb-6">
+                <div class="flex items-center gap-2 mb-6">
                     <input 
                         type="text" 
                         placeholder="Discount code" 
-                        class="flex-1 px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:ring-black focus:border-black outline-none"
+                        class="flex-1 min-w-0 px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:ring-black focus:border-black outline-none"
                     />
-                    <button class="bg-orange-500 text-white px-5 py-2.5 rounded-xl font-medium text-sm hover:bg-orange-600 transition-colors active:scale-95">
+                    <button class="bg-orange-500 text-white px-4 py-2.5 rounded-xl font-medium text-sm hover:bg-orange-600 transition-colors active:scale-95 shrink-0">
                         Apply
                     </button>
                 </div>
@@ -1107,7 +1107,7 @@ const renderCartView = () => {
                 <div class="mt-8 pt-4 border-t border-gray-200 space-y-3 text-sm text-gray-600">
                     <p class="flex items-center gap-2">
                         ${getIconSVG('ShieldCheck', 'w-4 h-4 text-green-500')}
-                        Safe shopping at DressHome
+                        Safe shopping at Chalfonte Clothing
                     </p>
                     <p class="flex items-center gap-2">
                         ${getIconSVG('Check', 'w-4 h-4 text-green-500')}
