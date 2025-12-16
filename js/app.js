@@ -628,9 +628,9 @@ const renderHomeView = () => {
         <div class="bg-gray-900 rounded-3xl p-8 md:p-16 text-center mb-20">
             <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Join our list</h2>
             <p class="text-gray-400 mb-8 max-w-md mx-auto">Sign up for exclusive access to new drops and special offers.</p>
-            <div class="max-w-md mx-auto flex gap-4">
-                <input type="email" placeholder="Your email address" class="flex-1 bg-gray-800 border-none rounded-full px-6 py-3 text-white placeholder:text-gray-500 focus:ring-2 focus:ring-white/20 outline-none" />
-                <button class="bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors">
+            <div class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+                <input type="email" placeholder="Your email address" class="w-full sm:flex-1 bg-gray-800 border-none rounded-full px-6 py-3 text-white placeholder:text-gray-500 focus:ring-2 focus:ring-white/20 outline-none" />
+                <button class="w-full sm:w-auto bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors">
                     Sign Up
                 </button>
             </div>
